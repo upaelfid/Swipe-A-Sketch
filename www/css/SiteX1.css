@@ -1,0 +1,38 @@
+﻿html,body{background-color:#C50109;}
+html,body#swipeASketch{background-color:#C50109;}
+.container .row{border:5px solid red; border-radius:5px;padding: 5px;}
+
+#canvas{background-color:#999999; border-radius:12px; -webkit-border-radius: 12px;-moz-border-radius: 12px; width:100% !important;}
+#bcanvas{background-color:#999999; border-radius:12px; -webkit-border-radius: 12px;-moz-border-radius: 12px; width:100% !important;}
+#swipeASketch #bcanvas{background-color:#ADACA8; width:100% !important;border:none;}
+#canvas_container {
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 15px;
+    margin: 5px 20px;
+    overflow: hidden;
+    -webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC); /* this fixes the overflow:hidden in Chrome/Opera */
+}
+#swipeASketch p{font-size:12em;}
+#defaultCanvas0{background-color:#999999; border-radius:12px; border:10px solid #555555;-webkit-border-radius: 12px;-moz-border-radius: 12px; width:100% !important;touch-action:none;}
+.jumbotron div{font-size:10px; color:gold;}
+.jumbotron{margin-bottom:0 !important; padding-bottom:5px; line-height:1.1;background-color:#cd0007;}
+.row{margin-right:0; margin-left:0;}
+.navbar{min-height:30px !important; margin-bottom:0;}
+    .navbar-brand {font-family: 'Lobster'; color: gold !important;margin-left: 12px;}
+@media (max-width: 768px) {
+    .navbar-brand {padding: 5px 10px !important;}
+}
+.navbar-inverse{background-color:#C50109; border-color:transparent;}
+#swipeASketch .navbar-inverse{background-color:#C50109; border-color:transparent;}
+.navbar-toggle{border:2px solid transparent !important; border-radius:20px; height:30px; margin-top:0; margin-bottom:0;margin-right:5px;padding:0 5px 0 0;}
+.navbar-inverse .navbar-toggle:focus,.navbar-inverse .navbar-toggle:hover{background-color:#C50109 !important;}
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {border-color: white;}
+
+#theImg{background-color:black;}
+/*body img{width:100%; position:absolute; background-color:#ADACA8; height:100%; z-index:1}*/
+
+button{width:100%; margin:10px 0;}
+/*CIRCLES*/
+.circle{position: relative;border-radius: 50%;background: white; border:5px solid red;}
+.mfp-title {text-align: center;font-size: 21px;}
